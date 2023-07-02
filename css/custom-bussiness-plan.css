@@ -1,0 +1,196 @@
+.custom_cbp_banner
+{
+    background-color: var(--navbar);
+    padding: 70px 0 70px 0;
+    color: #fff!important;
+}
+.custom_cbp_banner .livechat {
+    color: #fff;
+}
+
+.custom_cbp_banner .livechat p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+.custom_cbp_banner .livechat h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 0;
+    padding: 15px 0 15px 0;
+}
+
+.custom_cbp_banner .livechat a {
+    color: var(--theme-color);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.tobp
+{
+    width: 100%;
+    height: auto;
+}
+.tobp .wizard,
+.tobp .wizard .nav-tabs,
+.tobp .wizard .nav-tabs .nav-item {
+	position: relative;
+}
+.tobp .wizard .nav-tabs:after {
+	content: "";
+	width: 80%;
+	border-bottom: solid 2px #ccc;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	top: 38%;
+	z-index: -1;
+}
+.tobp .wizard .nav-tabs .nav-item .nav-link {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 6%;
+	background: white;
+	border: 2px solid #ccc;
+	color: #ccc;
+	z-index: 10;
+}
+.tobp .wizard .nav-tabs .nav-item .nav-link:hover {
+	color: #333;
+	border: 2px solid var(--theme-color);
+}
+.tobp .wizard .nav-tabs .nav-item .nav-link.active {
+	background: #fff;
+	border: 2px solid var(--theme-color);
+}
+
+.tobp .wizard .nav-tabs .nav-item .nav-link svg {
+	font-size: 25px;
+}
+
+.tobp .wizard .tab_wrapper 
+{   
+    width: 100%;
+    padding: 30px 70px 20px 70px;
+    text-align: center;   
+}
+
+.tobp .wizard .tab_wrapper h3
+{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+.tobp .wizard .nav-tabs {
+    --bs-nav-tabs-border-width: 0;
+}
+
+/* slider */
+.swiper-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    margin:0 20px;
+    border: 2px solid var(--theme-color);
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  
+  .swiper-slide img
+  {
+    width: 250px;
+  }
+
+
+  .swiper-button-prev, 
+  .swiper-container-rtl .swiper-button-next {
+    display: none;
+}
+
+.swiper-button-next, 
+.swiper-container-rtl .swiper-button-prev {
+
+    display: none;
+}
+
+/* Pricing table */
+.cbp_pricing_table 
+{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.cbp_pricing_table .pricing .plan .bussiness_plan p
+{
+    border: 1px solid var(--theme-color);
+    margin: 0!important;
+    padding: 4px;
+    border-radius: 60px;
+    background-color: var(--theme-color);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.cbp_pricing_table .pricing .plan .bussiness_plan 
+{
+    margin-bottom: 32px;
+    margin-top: 33px;
+}
+/* Blog Banner */
+.blog_banner
+{
+    width: 100%;
+    height: auto;
+    background-color: var(--navbar);
+    padding: 75px 0 75px 0;
+}
+.blog_banner .left_section
+{
+    width: 55%;
+    height: 500px;
+    float: left;
+}
+
+.blog_banner .right_section
+{
+    width: 40%;
+    height: 500px;
+    float: right;
+    color: #fff;
+}
+.blog_banner .right_section p
+{
+    margin-bottom: 30px;
+}
+.blog_banner .right_section .button
+{
+    text-decoration: none;
+    background-color: var(--theme-color);
+    padding: 12px 35px;
+    color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.blog_banner .right_section .phone 
+{
+    color: #fff;
+    font-size: 20px;
+}

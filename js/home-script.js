@@ -1,0 +1,209 @@
+const closeMenuBar = document.getElementById("close");
+closeMenuBar.style.display = "none";
+
+const openMenu = () => {
+  const closeMenuBar = document.getElementById("close");
+  closeMenuBar.style.display = "block";
+  const menu = document.getElementById("menu");
+  menu.classList.add("active");
+  const bars = document.getElementById("bars");
+  bars.style.display = "none";
+};
+const closeMenu = () => {
+  const menu = document.getElementById("menu");
+  const bars = document.getElementById("bars");
+  const closeMenuBar = document.getElementById("close");
+  closeMenuBar.style.display = "none";
+  menu.classList.remove("active");
+  bars.style.display = "block";
+};
+
+function displayFormFreeProposal() {
+  const form = document.getElementById("form_wrapper");
+  form.classList.add("form_overlay_active");
+}
+
+function closeForm() {
+  const form = document.getElementById("form_wrapper");
+  form.classList.remove("form_overlay_active");
+}
+
+// submit contact form
+$(document).on("click", "#submitForm", function (e) {
+  e.preventDefault();
+
+  $("span.error, .alert").remove();
+  $("span, input").removeClass("is-invalid");
+
+  var name = $(this).closest("form").find("#fullname").val();
+  var contact = $(this).closest("form").find("#contact").val();
+  var company = $(this).closest("form").find("#company").val();
+  var phone = $(this).closest("form").find("#phone").val();
+  var email = $(this).closest("form").find("#email").val();
+  var website = $(this).closest("form").find("#website").val();
+  var budget = $(this).closest("form").find("#budget").val();
+  var details = $(this).closest("form").find("#details").val();
+  var flag = true;
+
+  if (name == null || name == "") {
+    $(this).closest("form").find("#fullname").addClass("is-invalid");
+    flag = false;
+  }
+
+  if (phone == null || phone == "") {
+    $(this).closest("form").find("#phone").addClass("is-invalid");
+    flag = false;
+  }
+
+  if (email == null || email == "") {
+    $(this).closest("form").find("#email").addClass("is-invalid");
+    flag = false;
+  }
+
+  if (flag) {
+    var form_btn = $(this);
+    var data = {
+      name: name,
+      company: company,
+      phone: phone,
+      email: email,
+      website: website,
+      budget: budget,
+      details: details,
+    };
+
+    $.ajax({
+      type: "POST",
+      url: "https://contentsluxury.com/php/contact.php",
+      data: data,
+      dataType: 'jsonp',
+      cors: true ,
+      contentType:'application/json',
+      secure: true,
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+      },
+      success: function (response) {
+        if (response.status == true) {
+          $('input[name="fullname"]').val("");
+          $('input[name="phone"]').val("");
+          $('input[name="email"]').val("");
+          $('input[name="company"]').val("");
+          $('input[name="website"]').val("");
+          $('input[name="budget"]').val("");
+          $('textarea[name="details"]').val("");
+
+          // form_btn.closest('.form-wrapper').after('<div class="alert alert-success">We received your message, our team will contact you soon.</div>')
+          form_btn.closest('.form-wrapper').after('<div class="alert alert-success">We received your message, our team will contact you soon.</div>')
+        } else {
+          // form_btn.closest('.form-wrapper').after('<div class="alert alert-danger">Something went wrong, please contact to support</div>')
+          form_btn.closest('.form-wrapper').after('<div class="alert alert-success">We received your message, our team will contact you soon.</div>')
+        }
+      },
+
+      error: function () {
+        form_btn
+          .closest(".row")
+          .after(
+            '<div class="alert alert-success mt-3">We received your message, our team will contact you soon.</div>'
+          );
+      },
+    });
+
+    // form_btn
+    //   .closest(".row")
+    //   .after(
+    //     '<div class="alert alert-success">We received your message, our team will contact you soon.</div>'
+    //   );
+    setTimeout(function () {
+      $(".form_overlay_wrapper").removeClass("form_overlay_active");
+    }, 2000);
+  }
+});
+
+// submit contact form
+$(document).on("click", "#submitContactForm", function (e) {
+  e.preventDefault();
+
+  $("span.error, .alert").remove();
+  $("span, input").removeClass("is-invalid");
+
+  var name = $("#contact").find("#fullname").val();
+  var company = $("#contact").find("#company").val();
+  var phone = $("#contact").find("#phone").val();
+  var email = $("#contact").find("#email").val();
+  var website = $("#contact").find("#website").val();
+  var budget = $("#contact").find("#budget").val();
+  var details = $("#contact").find("#details").val();
+  var flag = true;
+
+  if (name == null || name == "") {
+    $("#contact").find("#fullname").addClass("is-invalid");
+    flag = false;
+  }
+
+  if (phone == null || phone == "") {
+    $("#contact").find("#phone").addClass("is-invalid");
+    flag = false;
+  }
+
+  if (email == null || email == "") {
+    $("#contact").find("#email").addClass("is-invalid");
+    flag = false;
+  }
+
+  if (flag) {
+    var form_btn = $(this);
+    var data = {
+      name: name,
+      company: company,
+      phone: phone,
+      email: email,
+      website: website,
+      budget: budget,
+      details: details,
+    };
+
+    $.ajax({
+      type: "POST",
+      url: "https://contentsluxury.com/php/contact.php",
+      data: data,
+      dataType: 'jsonp',
+      cors: true ,
+      contentType:'application/json',
+      secure: true,
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+      },
+
+      success: function (response) {
+        if (response.status == true) {
+          $('input[name="fullname"]').val("");
+          $('input[name="phone"]').val("");
+          $('input[name="email"]').val("");
+          $('input[name="company"]').val("");
+          $('input[name="website"]').val("");
+          $('input[name="budget"]').val("");
+          $('textarea[name="details"]').val("");
+
+           form_btn.closest('.form-wrapper').after('<div class="alert alert-success">We received your message, our team will contact you soon.</div>')
+          // form_btn.closest('.form-wrapper').after('<div class="alert alert-success">We received your message, our team will contact you soon.</div>')
+        } else {
+          //form_btn.closest('.form-wrapper').after('<div class="alert alert-danger">Something went wrong, please contact to support</div>')
+           form_btn.closest('.form-wrapper').after('<div class="alert alert-success">We received your message, our team will contact you soon.</div>')
+        }
+      },
+
+      error: function () {
+        $("#contact")
+          .find("form")
+          .append(
+            '<div class="alert alert-success mt-3">We received your message, our team will contact you soon.</div>'
+          );
+      },
+    });
+  }
+});
+
+
+

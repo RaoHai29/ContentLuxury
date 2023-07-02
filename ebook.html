@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Custom eBook Writing Service</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/themes/splide-default.min.css"
+    integrity="sha512-KhFXpe+VJEu5HYbJyKQs9VvwGB+jQepqb4ZnlhUF/jQGxYJcjdxOTf6cr445hOc791FFLs18DKVpfrQnONOB1g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/ebook.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+
+
+</head>
+
+<body>
+  <!-- Hidden Elements -->
+  <div class="form_overlay_wrapper">
+    <div class="form_overlay">
+      <section class="section-10">
+        <div class="container">
+          <div class="row">
+            <div class="col-left">
+              <!-- title -->
+              <div class="title_wrapper">
+                <h2 class="theme_title">
+                  Request A <span> Free Proposal</span>
+                </h2>
+                <div class="closer_btn"><a href="javscript:void(0)"><i class="fas fa-times"></i></a></div>
+              </div>
+              <!-- title -->
+              <div class="form-wrapper">
+                <div class="request-quote">
+                  <form id="form2" method="post" style="width:100%;">
+                    <input name="fullname" id="fullname" placeholder="Your Full Name" class="form-control">
+                    <input name="company" id="company" placeholder=" Company Name" class="form-control">
+                    <input name="phone" id="phone" placeholder="Phone Number" class="form-control">
+                    <input name="email" id="email" placeholder="Email Address" class="form-control">
+                    <input name="website" id="website" placeholder="Website" class="form-control">
+                    <input name="budget" id="budget" placeholder="Budget" class="form-control">
+                    <textarea name="details" id="details" placeholder="Project Details" style="width: 98%;height:200px;"
+                      cols="1000" rows="5"></textarea>
+
+                    <div class="form-submit-btn">
+                      <a class="form-btn btn" id="submitForm" href="javascript:void(0)"
+                        style="float: right;margin: 0 2% 0 0;">Submit</a>
+                    </div>
+                    <div class="form-submit-btn">
+                      <a class="form-btn btn" href="javascript:void(Tawk_API.toggle())"
+                        style="background-color:#d31228;float: right;margin: 0 2% 0 0;color:white;">Live Chat</a>
+                    </div>
+                  </form>
+                </div>
+
+                <div class="clear_fix"></div>
+
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+
+
+      </section>
+    </div>
+  </div>
+
+  <div class="sticky_form_wrapper">
+    <div class="sticky_form">
+      <a href="javascript:void(0)" class="clickable">
+        <div class="pop_btn">
+          <div class="icon"><i class="	fas fa-arrow-up"></i></div>
+          <div class="text"><span>Request a free proposal</span></div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- Hidden Elements -->
+  <!-- Responsive Sidebar -->
+  <div class="body_overlay"></div>
+  <div class="sidebar">
+    <div class="wrapper">
+      <div class="closer_btn ms-auto">
+
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="menu">
+        <ul>
+          <a href="https://contentsluxury.com/">
+            <li>Home</li>
+          </a>
+          <a href="#about">
+            <li>About us</li>
+          </a>
+          <a href="#pricing">
+            <li>Pricing</li>
+          </a>
+          <a href="#contact">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Responsive Sidebar -->
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg custom_nav" id="navbarMain">
+    <div class="container">
+
+      <!-- logo -->
+      <a class="navbar-brand" href="https://contentsluxury.com/"><img src="img/logo.png" alt=""></a>
+      <!-- logo -->
+      <!-- link navigation -->
+      <ul class="navbar-nav ms-auto nav-l">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://contentsluxury.com/"><span>Home</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#pricing">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <!-- link navigation -->
+      <!-- Widgets -->
+      <div class="widgets ms-auto">
+        <div class="wi-icons">
+          <a class="nav-link p-1" href="" target="blank"><i class="fab fa-facebook-f widgets-icon"></i></a>
+          <a class="nav-link p-1" href="" target="blank"><i class="fab fa-twitter widgets-icon"></i></a>
+          <a class="nav-link p-1" href="" target="blank"><i class="fab fa-dribbble widgets-icon"></i></a>
+        </div>
+        <div class="hamburber ms-auto">
+          <a href="javascript:void(0)" class="sidebar_Btn">
+            <svg width="40px" height="40px" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4 7C4 6.44771 4.44772 6 5 6H24C24.5523 6 25 6.44771 25 7C25 7.55229 24.5523 8 24 8H5C4.44772 8 4 7.55229 4 7Z"
+                fill="" />
+              <path
+                d="M4 13.9998C4 13.4475 4.44772 12.9997 5 12.9997L16 13C16.5523 13 17 13.4477 17 14C17 14.5523 16.5523 15 16 15L5 14.9998C4.44772 14.9998 4 14.552 4 13.9998Z"
+                fill="" />
+              <path
+                d="M5 19.9998C4.44772 19.9998 4 20.4475 4 20.9998C4 21.552 4.44772 21.9997 5 21.9997H22C22.5523 21.9997 23 21.552 23 20.9998C23 20.4475 22.5523 19.9998 22 19.9998H5Z"
+                fill="" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Widgets -->
+
+    </div>
+  </nav>
+  <!-- Navigation -->
+  <div class="spacer-h50"></div>
+  <!-- Section-1 -->
+  <section class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="hero_wrapper">
+
+            <div class="hero_title text-center">
+              <h1>Ebook writing services, made especially for you!</h1>
+            </div>
+            <!-- <div class="divider mx-auto"></div> -->
+            <ul id="awards_block">
+              <li><a href="#"><img src="img/awards/award-01.webp" alt=""></a></li>
+              <li><a href="#"><img src="img/awards/award-02.webp" alt=""></a></li>
+              <li><a href="#"><img src="img/awards/award-03.webp" alt=""></a></li>
+              <li><a href="#"><img src="img/awards/award-04.png" alt=""></a></li>
+
+            </ul>
+            <div class="hero_text text-center"><span>Hire professional ebook writers who have ghostwritten thousands of ebooks for clients all over the world!</span></div>
+            <div class="price_wrapper"><span><i>Starting from only</i></span>
+              <p class="price">$20.80<span>/Page</span></p>
+            </div>
+            <div class="button_wrapper ">
+              <a href="#" class="button clickable">Order now</a>
+              <div class="contact_wrapper"><i class="fa-solid fa-phone text-danger"></i><span> (716) 507 8788</span></div>
+            </div>
+
+
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-6"><img src="img/ebook/ebooks.svg" width="100%" alt=""></div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+  <!-- Section-1 -->
+  <div class="spacer-h100"></div>
+  <!-- Ebook -->
+  <section class="ebook">
+    <div class="container">
+      <!-- title -->
+      <div class="title_wrapper">
+        <h2 class="theme_title center">
+          Establish Your Authority with a <span>Professionally Written eBook</span>
+        </h2>
+
+      </div>
+      <!-- title -->
+      <div class="book_box">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="wrapper">
+              <img src="img/ebook/book-cover-1.jpg" alt="">
+              <div class="overlay">
+                <a href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="wrapper">
+              <img src="img/ebook/book-cover-2.jpg" alt="">
+              <div class="overlay">
+                <a href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="wrapper">
+              <img src="img/ebook/book-cover-3.jpg" alt="">
+              <div class="overlay">
+                <a href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="wrapper">
+              <img src="img/ebook/book-cover-4.jpg" alt="">
+              <div class="overlay">
+                <a href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="clear_fix"></div>
+  </section>
+  <!-- Ebook -->
+  <div class="spacer-h100"></div>
+  <!-- Section-2 -->
+  <section class="section-2" id="about">
+    <div class="container">
+      <div class="row">
+        <!-- title -->
+        <div class="title_wrapper">
+          <h2 class="theme_title center">
+            How It <span>Works?</span>
+          </h2>
+          <div class="title_desc text-center">
+            <p>Our process is simple and easy to follow for everyone. Find the steps and features explained below. </p>
+          </div>
+        </div>
+        <!-- title -->
+
+        <ul class="cards">
+          <li>
+            <img src="img/ebook/headphone.png" width="100px">
+            <h6>Details of Your Order:</h6>
+            <p>Before you place your order, we will need all the details of the project from you, including the main topic name, a table of contents and all the requirements you have regarding the writing style, word count and the general outline, etc. If you do not have an outline, don’t worry, we will provide one for you.</p>
+          </li>
+          <li>
+            <img src="img/ebook/headphone.png" width="100px">
+            <h6>First Chapter for Your Approval:</h6>
+            <p>The standard of writers on our team is excellent, but we still like to make sure you are completely satisfied with our quality before we finish the whole book for you. This is why the first chapter of the book will be provided to you for your approval or any changes you want to make to the sequence or style of the work. After your approval, we will go forward and finish the rest of your book.</p>
+          </li>
+          <li>
+            <img src="img/ebook/headphone.png" width="100px">
+            <h6>Feedback and Revisions</h6>
+            <p>All along the way, we will continue to share drafts from our writers as they are completed. We want our clients to feel fully in control and satisfied at every step. You can request any changes you want in the text, tone or style of each chapter as we proceed. This will give you total control over your book and a 100% satisfaction.</p>
+          </li>
+          <li>
+            <img src="img/ebook/headphone.png" width="100px">
+            <h6>Editing and Proofreading</h6>
+            <p>Every draft of the book will be edited and proofread by our team before we send it to you. One of our senior editors will read through the whole thing and make sure there are no errors on our part, after which we will share it with you to read over.</p>
+          </li>
+          <li>
+            <img src="img/ebook/headphone.png" width="100px">
+            <h6>Cover Page Design</h6>
+            <p>When they say that you can’t judge a book by its cover, they are lying. A book cover is the first thing your reader lays their eyes upon and is extremely likely to affect whether or not they pick up your book. This is why we design an attention-grabbing cover for your book so your readers can know what it’s all about.</p>
+          </li>
+          <li>
+            <img src="img/ebook/headphone.png" width="100px">
+            <h6>Review of Final Draft </h6>
+            <p>The final draft of the book after our team has finished everything will be sent to you. You can then go over it and see if there are any changes you want to make.</p>
+          </li>
+
+        </ul>
+
+
+
+
+      </div>
+    </div>
+
+
+  </section>
+  <!-- Section-2 -->
+  <!-- Section-3 -->
+  <!-- Section-3 -->
+  <!-- Section-4 -->
+  <!-- Section-4 -->
+  <div class="spacer-h100"></div>
+  <!-- Banner -->
+  <div class="banner">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="center white" style="margin-bottom:15px;">There is no point in waiting! </h2>
+        <!-- title -->
+        <div class="title_wrapper">
+          <h2 class="theme_title center">
+            Order Now to Get Your <span>full ebook written especially for you and your readers!</span>
+          </h2>
+        </div>
+        <!-- title -->
+        <a href="#" class="btn clickable">Order Now ➔</a>
+      </div>
+    </div>
+  </div>
+  <!-- Banner -->
+  <div class="spacer-h100"></div>
+  <!-- Section-5 -->
+  <!-- Section-5 -->
+  <!-- Section-6 -->
+  <section class="section-6" id="pricing">
+    <!-- title -->
+    <div class="title_wrapper">
+      <h2 class="theme_title center">
+        Standard eBook <span>Writing Packages</span>
+      </h2>
+    </div>
+    <!-- title -->
+
+    <div class="pricing_wrapper">
+      <div class="pricing">
+        <div class="plan">
+          <div class="border_wrap">
+            <h2>Package 1</h2>
+            <div class="price">$299.00</div>
+            <ul class="features">
+              <li><i class="fa fa-check-circle cusc"></i> <span class="pages">25 Pages</span></li>
+              <li><i class="fa fa-check-circle cusc"></i> <span>Free cover page design</span></li>
+              <li><i class="fa fa-check-circle cusc"></i> <span>WIthin 1 Week</span>t</li>
+              <li><i class="fa fa-check-circle cusc"></i> <span>100% satisfaction guaranteed</span></li>
+            </ul>
+
+            <a href="#"><button class="table_button clickable">Order Now</button></a>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="border_wrap">
+            <h2>Package 2</h2>
+            <div class="price">$549.00</div>
+            <ul class="features">
+              <li><i class="fa fa-check-circle cusc"></i> <span class="pages">50 Pages</span></li>
+              <li><i class="fa fa-check-circle cusc"></i> <span>Free cover page design</span></li>
+              <li><i class="fa fa-check-circle cusc"></i> <span>WIthin 2 Week</span>t</li>
+              <li><i class="fa fa-check-circle cusc"></i> <span>100% satisfaction guaranteed</span></li>
+            </ul>
+
+            <a href="#"><button class="table_button clickable">Order Now</button></a>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="border_wrap">
+            <h2>Package 3</h2>
+            <div class="price">$995.00</div>
+            <ul class="features">
+              <li><i class="fa fa-check-circle cusc"></i> <span class="pages">100 Pages</span></li>
+              <li><i class="fa fa-check-circle cusc"></i> <span>Free cover page design</span></li>
+              <li><i class="fa fa-check-circle cusc"></i> <span>WIthin 3 Week</span>t</li>
+              <li><i class="fa fa-check-circle cusc"></i> <span>100% satisfaction guaranteed</span></li>
+            </ul>
+
+            <a href="#"><button class="table_button clickable">Order Now</button></a>
+          </div>
+        </div>
+
+        <div class="pricing_footer">
+          <p>* Note: 
+                The packages mentioned above are the standard packages we offer. You can customize your particular package depending on your requirements. Any additional complexity, industrial knowledge and quality may necessitate additional charges. To get an accurate quote, please call our toll free number <br> <a href="tel:7165078788"><span>(716) 507 8788</span></a> , start a <a href="javascript:void(Tawk_API.toggle())">live chat</a>, or fill out our request for proposal form.
+            </p>
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+
+  </section>
+  <!-- Section-6 -->
+  <div class="spacer-h100"></div>
+  <!-- eBook Banner -->
+  <section class="blog_banner">
+    <div class="container">
+      <div class="left_section d-flex alig-items-center">
+        <img src="img/ebook/newcta-ebook.png" alt="" width="100%">
+      </div>
+      <div class="right_section d-flex align-items-center">
+        <div class="wrapper">
+          <div class="title_wrapper">
+            <h2 class="theme_title left text-white">
+              Talk to our In-House EBook Creative Consultant for Free:
+              <span> Creative Consultant</span>
+            </h2>
+          </div>
+          <p>You can benefit from premium consultancy provided by our resident ebook creative lead to make sure your book is impactful, gripping and a good read over all for all of your customers. You can discuss any specific requirements, ideas, or concepts that you want to include in the book, as well as marketing strategies so that your book can make its mark in the genre it belongs to.</p>
+
+          <a href="#" class="button clickable">Order Now</a>
+          <br>
+          <br>
+          <a href="javascript:void(0)" class="phone"><i class="fas fa-phone me-2 text-danger"></i>(716) 507 8788</a>
+
+
+        </div>
+      </div>
+      <div class="clear_fix"></div>
+
+    </div>
+  </section>
+  <!-- eBook Banner -->
+  <!-- section-7 -->
+  <section class="section-7">
+    <form action="#">
+      <div class="container">
+        <!-- title -->
+        <div class="spacer-h100"></div>
+        <div class="title_wrapper">
+          <h2 class="theme_title center">
+            Custom <span> Order Form:</span>
+          </h2>
+          <div class="title_desc text-center">
+            <p class="align-center">
+                Are you ready to get started but aren’t sure what you need? Fill out our custom order form and we will get back to you as soon as possible. You can also get in touch with our team, available 24/7 via <b><a href="javascript:void(Tawk_API.toggle())">Live Chat</a></b>, or <b><a
+                  href="tel:7165078788">call us</a></b> .
+            </p>
+          </div>
+        </div>
+        <!-- title -->
+        <div id="custom-plan-box">
+          <div class="field_group">
+            <div class="cpb-left">
+              <span class="cpb-label">No. of Pages:</span>
+            </div>
+            <div class="cpb-right">
+              <div class="range-wrap num_blogs_field">
+                <output class="bubble" style="left: calc(0% + 8px);">1</output>
+                <input type="range" min="1" max="100" value="1" id="num_pages" step="1" onchange="updatePrice()"
+                  class="range custom-rangeInput">
+                  <span class="custom-rangeslider__tooltip"></span>
+              </div>
+            </div>
+            <div class="clear_fix"></div>
+          </div>
+
+          <div class="sec_group">
+            <div class="sec_left">
+              <div class="wrapper">
+                <div class="label"><span><strong>Turnaround Time:</strong></span></div>
+                <div class="form-check form-switch turnaround_time">
+                  3 Business Days
+                </div>
+              </div>
+            </div>
+            <div class="sec_right">
+              <div class="wrapper">
+                <div class="label"><span>Urgency:</span></div>
+                <div class="form-check form-switch">
+                  <input class="form-check-input custom_toggle" onchange="updatePrice(), updateTurnaroundTime()"
+                    type="checkbox" id="urgent" role="switch" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clear_fix"></div>
+          <div class="order_box">
+            <div class="total_price"><span class="label">Total Price</span><span class="total_cost">$ <span
+                  id="total_cost">11.96</span> </span></div>
+            <div class="order_btn"><a href="javascript:void(0)" onclick="sendMail()" class="button">Order now</a></div>
+          </div>
+
+          <div class="clear_fix"></div>
+
+        </div>
+      </div>
+    </form>
+
+  </section>
+  <!-- section-7 -->
+  <div class="spacer-h100"></div>
+  <!-- Section-faq -->
+  <section class="section_faq">
+    <!-- title -->
+    <div class="title_wrapper">
+      <h2 class="theme_title center">
+        Do You Have <span>Question</span>
+      </h2>
+    </div>
+    <!-- title -->
+    <div class="row">
+      <div class="d-flex justify-content-center">
+        <div class="col-lg-10">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapseOne">
+                  What is the correct length of an ebook?
+                </button>
+              </h2>
+              <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The optimum length of a non-fiction ebook is from 10,000 words to any number of words it takes to cover the topic. On average, readers gravitate towards a length of 20,000 to 40,000 words. This makes an estimated 55-115 pages.It can be longer or shorter than this as well. 
+                <br>
+                For fictional ebooks, we have more liberty as we are building a whole story. On average, the standard fictional book comprises 40,000 to 80,000 words, or 115 to 250 pages. 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+                  Can you complete my unfinished ebook?
+                </button>
+              </h2>
+              <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Yes, we offer services to not only complete, but edit your unfinished ebook. If you have written some of it and are not able to finish writing it, do not worry. We will pick up right where you left off and tinker the charges accordingly.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                  Will I have to provide my own research for the ebook?
+                </button>
+              </h2>
+              <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">You can if you want to, but we can work without it as well. We have a team of expert researchers to make sure your ebook is well-written and contains all the necessary knowledge for your readers. You can provide us with only a title and a few lines of outline, or share a whole folder of your own extensive research- we work both ways.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                  How long will it take you to write my ebook?
+                </button>
+              </h2>
+              <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Our team of ghostwriters works efficiently and devotedly to make sure you get the first few chapters (25 pages) within a week. After that, we will complete the ebook at this rate depending on your preferred length, level of research, and other variables provided by you. IN this time, we will update you with regular finished chapters and allow you to give your feedback and any revisions you want to make.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+                  Will you design custom ebook covers?
+                </button>
+              </h2>
+              <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Yes, we have a whole team of in-house graphic designers who have experience in designing book covers so you don’t have to worry about that.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+                  Will you offer digital marketing services for my ebook?
+                </button>
+              </h2>
+              <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Yes, we are always eager to go the long way with our clients. After the ebook is written and published, we can offer a number of different SEO based digital marketing tools so you can choose which one works best to reach your target audience. 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+                  Revisions and cancellation policy:
+                </button>
+              </h2>
+              <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading7"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">You can request an unlimited number of revisions until you are fully satisfied with our work. Moreover you can cancel your order at any time and avail a refund.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section-faq -->
+  <div class="spacer-h100"></div>
+  <!-- Section-8 -->
+  <section class="section-8" id="contact">
+    <div class="container">
+      <div class="row">
+
+        <!-- title -->
+        <div class="title_wrapper">
+          <h2 class="theme_title center text-white">
+            Clients Love <span>Our Work!</span>
+          </h2>
+
+        </div>
+        <!-- title -->
+
+                <section class="testim">
+          <div class="wrap">
+
+            <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+            <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+            <ul id="testim-dots" class="dots">
+              <li class="dot active"></li><!--
+                                  -->
+              <li class="dot"></li><!--
+                                  -->
+              <li class="dot"></li><!--
+                                  -->
+              <li class="dot"></li><!--
+                                  -->
+              <li class="dot"></li>
+            </ul>
+            <div id="testim-content" class="cont">
+
+              <div class="active">
+                <div class="img"><img
+                    src="https://images.unsplash.com/photo-1625241152315-4a698f74ceb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+                    alt=""></div>
+                <h2>R. A. Rao</h2>
+                <p>I have been working with content creating agencies for a long while now, but working with Content Luxury was a whole new experience. Their team is highly cooperative and punctual, which is a rare quality in content agencies today.</p>
+              </div>
+
+              <div>
+                <div class="img"><img
+                    src="https://images.unsplash.com/photo-1621787279751-2baabc22d976?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                    alt=""></div>
+                <h2>Aman Singh</h2>
+                <p>I recently published my medical related ebook with Content Luxury and I have already sold hundreds of copies. I am so satisfied with their services and their team’s dedication at every step.</p>
+              </div>
+
+              <div>
+                <div class="img"><img
+                    src="https://images.unsplash.com/photo-1562783530-df27356a200d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                    alt=""></div>
+                <h2>Sara Chakraborty</h2>
+                <p>I totally recommend this ebook writing service! I have a small business for which I recently needed an informational ebook to be written, and Content Luxury delivered!</p>
+              </div>
+
+              <div>
+                <div class="img"><img
+                    src="https://images.unsplash.com/photo-1660314019032-268d70002b7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                    alt=""></div>
+                <h2>Aryan Sidana</h2>
+                <p>Content Luxury is an amazing service for writing and publishing ebooks. I have had a wonderful experience working with them.</p>
+              </div>
+
+              <div>
+                <div class="img"><img
+                    src="https://images.unsplash.com/photo-1583058905141-deef2de746bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=588&q=80"
+                    alt=""></div>
+                <h2>Aadriti Jha</h2>
+                <p>It was refreshing to see the way the Content Luxury team works. They were with me at every step of the way and made sure I was getting what I had dreamed of, for my first ebook.</p>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+  <!-- Section-8 -->
+  <div class="spacer-h100"></div>
+ 
+  <!-- Section-10 -->
+  <section class="section-10">
+    <div class="border"></div>
+    <div class="spacer-h100"></div>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-left">
+          <!-- title -->
+          <div class="title_wrapper">
+            <h2 class="theme_title center">
+              Request a <span> Quote</span>
+            </h2>
+          </div>
+          <!-- title -->
+          <div class="form-wrapper">
+            <div class="request-quote">
+              <form id="form2" method="post" style="width:100%;">
+                <input name="fullname" id="fullname" placeholder="Your Full Name" class="form-control">
+                <input name="company" id="company" placeholder=" Company Name" class="form-control">
+                <input name="phone" id="phone" placeholder="Phone Number" class="form-control">
+                <input name="email" id="email" placeholder="Email Address" class="form-control">
+                <input name="website" id="website" placeholder="Website" class="form-control">
+                <input name="budget" id="budget" placeholder="Budget" class="form-control">
+                <textarea name="details" id="details" placeholder="Project Details" style="width: 98%;height:200px;"
+                  cols="1000" rows="5"></textarea>
+
+                <div class="form-submit-btn">
+                  <a class="form-btn btn" id="submitForm" href="javascript:void(0)"
+                    style="float: right;margin: 0 2% 0 0;">Submit</a>
+                </div>
+              </form>
+            </div>
+
+            <div class="clear_fix"></div>
+
+          </div>
+          <div class="cta">
+            <h3>Want To <span>Know</span> More?</h3>
+            <p><i class="fas fa-phone me-2  clr_span"></i><a href="tel:+7165078788">(716) 507 8788</a> to discuss your
+              custom requirement!</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+  </section>
+  <!-- Section-10 -->
+  <div class="spacer-h100"></div>
+  <!-- Section-11 -->
+  <section class="section-11">
+    <div class="border"></div>
+    <div class="spacer-h50"></div>
+    <div class="footer_awards">
+      <ul>
+        <li><img src="img/awards/award-01.webp" alt=""></li>
+        <li><img src="img/awards/award-02.webp" alt=""></li>
+        <li><img src="img/awards/award-03.webp" alt=""></li>
+        <li><img src="img/awards/award-04.png" alt=""></li>
+        <li><img src="img/awards/award-5.webp" alt=""></li>
+        <li><img src="img/awards/award-8.webp" alt=""></li>
+
+      </ul>
+    </div>
+  </section>
+  <!-- Section-11 -->
+  <div class="spacer-h50"></div>
+  <!-- Section-12 -->
+  <section class="section-12">
+    <div class="row px-5">
+      <div class="col-md-3 col-xs-12">
+        <p class="footer-p">Popular Services:</p>
+        <ul class="list-style-disc">
+          <a href="#">
+            <li class="text-muted">Articles</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">BLog Management</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Content Writing Service</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Content Marketing</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Product Description</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Transcription Service</li>
+          </a>
+        </ul>
+        <p class="footer-p">BLog Writing:</p>
+        <ul class="list-style-disc">
+          <a href="#">
+            <li class="text-muted">BLog Posts</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Listicles</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Microblog Posts</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Newsjackling Posts</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Powet Blog Posts</li>
+          </a>
+        </ul>
+      </div>
+      <div class="col-md-3 col-xs-12">
+        <p class="footer-p">Website Content:</p>
+        <ul class="list-style-disc">
+          <a href="#">
+            <li class="text-muted">Web Copy</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Landing Pages</li>
+          </a>
+        </ul>
+        <p class="footer-p">Marketing Content:</p>
+        <ul class="list-style-disc">
+          <a href="#">
+            <li class="text-muted">Ad Copy</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Banner Descign</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Brochure Writing</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Flyers</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Infographics</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Newsletters</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Packaging Copy</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Sales Emails</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Sales Pages</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Slogans</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Script Writing</li>
+          </a>
+        </ul>
+      </div>
+      <div class="col-md-3 col-xs-12">
+        <p class="footer-p">Book Writing:</p>
+        <ul class="list-style-disc">
+          <a href="#">
+            <li class="text-muted">Autobiography</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Books</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">eBooks</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Fiction Books</li>
+          </a>
+        </ul>
+        <p class="footer-p">Social Media:</p>
+        <ul class="list-style-disc">
+          <a href="#">
+            <li class="text-muted">Facebook Posts</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">LinkedIn Articles</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">LinkedIn Profiles</li>
+          </a>
+        </ul>
+        <p class="footer-p">Editing Services:</p>
+        <ul class="list-style-disc">
+          <a href="#">
+            <li class="text-muted">Editing</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Proofreading</li>
+          </a>
+        </ul>
+      </div>
+      <div class="col-md-3 col-xs-12">
+        <p class="footer-p">Business Writing:</p>
+        <ul class="list-style-disc">
+          <a href="#">
+            <li class="text-muted">Applications</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Business Plans</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Business Proposals</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Complaint Letters</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Case Study</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Cover Letters</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Cover Letters</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Memos</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Speeches</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">SoP Writing</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Autoresponders</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Bio Writing</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Reviews</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Whitepapers</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Presentations</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Press Releases</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Profile Writing</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Custom Letters</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Recommendation Letters</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Magazine Articles</li>
+          </a>
+          <a href="#">
+            <li class="text-muted">Resume Writing Service</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Section-12 -->
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer_wrap">
+        <div class="footer_logo"><img src="img/logo.png" alt="" width="50px"></div>
+        <div class="text"><span>© 2023 Content Luxury</span></div>
+      </div>
+
+    </div>
+  </footer>
+  <!-- Footer -->
+  <!-- back-to-top -->
+  <button class="btn btn-sm btn-top p-2 px-3 position-fixed bottom-0 end-0 translate-middle d-none"
+    onclick="scrollToTop()" id="back-to-up">
+    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+  </button>
+  <!-- back-to-top -->
+
+  <!-- Start of LiveChat (www.livechat.com) code -->
+<script>
+    window.__lc = window.__lc || {};
+    window.__lc.license = 15017235;
+    ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+</script>
+<noscript><a href="https://www.livechat.com/chat-with/15017235/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+<!-- End of LiveChat code -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+  integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+<script type="text/javascript" src="https://codegena.com/assets/js/youtube-embed.js"></script>
+<script src="js/script.js"></script>
+
+
+<script>
+
+        // range slider
+  (function (win, dom) {
+    'use strict';
+
+    // Check for .rangeControl class
+    var rangeControlList = dom.getElementsByClassName('custom-rangeInput');
+
+    // Inits components
+    var init = function () {
+
+      // Loop all controls
+      for (var i = 0; i < rangeControlList.length; i++) {
+
+        // Apply inital
+        updateController(rangeControlList[i]);
+        // Update when changed
+        rangeControlList[i].addEventListener('input', function () {
+          updateController(this);
+        });
+        // Update when changed ( for older browsers )
+        rangeControlList[i].addEventListener('change', function () {
+          updateController(this);
+        });
+      }
+    }
+
+    // Updates components
+    var update = function () {
+      for (var i = 0; i < rangeControlList.length; i++) {
+        updateController(rangeControlList[i]);
+      }
+    }
+
+    // Update controller
+    var updateController = function (obj) {
+      // Thumb Position
+      var thumbPos = getThumbPercentage(obj);
+      var thumPosPX = getThumbPosition(obj);
+      if (obj.getAttribute("data-tooltip") != "false") {
+        updateTooltip(obj.nextElementSibling, obj.value, thumPosPX, thumbPos);
+      } else {
+        obj.nextElementSibling.style.display = "none";
+      }
+      updateProgress(obj, '#', '#', thumbPos);
+    }
+
+    // Retun range slider pixel position according to offset
+    // obj : target object
+    var getThumbPosition = function (obj) {
+      return Math.round((obj.offsetWidth / 100) * obj.value); // Pixel
+    }
+
+    // Retun range slider percentage to thumb position
+    // obj : target object
+    var getThumbPercentage = function (obj) {
+      return Math.round(100 * obj.value / obj.getAttribute("max")); // Percentage
+    }
+
+    // Updated range slider tooltip
+    // obj : target object
+    // text : tooltip label
+    // position : absolute position
+    // percentage : percentage of current value
+    var updateTooltip = function (obj, text, position, percentage) {
+      obj.innerHTML = text; // Tooltip text
+      obj.style.left = position + 'px'; // Tooltip position
+
+      // Tooltip Position
+      var tooltipStartPos = 26;
+      var tooltipPosFix = percentage / 1.8;
+      if (percentage > 50) {
+        tooltipPosFix = percentage / 2.2;
+      }
+      obj.style.transform = 'translate(-' + (tooltipStartPos + tooltipPosFix) + '%, 0)';
+    }
+
+    // Updated background progress bar of range slider
+    // obj : target object
+    // progressBgColor : background color
+    // progressFillColor : fill color
+    // percentage : percentage of current value
+    var updateProgress = function (obj, progressBgColor, progressFillColor, percentage) {
+      var rangeBg = 'linear-gradient(to right,  ' + progressFillColor + ' 0%, ' + progressFillColor + ' ' + percentage + '%, ' + progressBgColor + ' ' + percentage + '%, ' + progressBgColor + ' 100%)';
+      var cssRule = '#' + obj.id + '::-webkit-slider-runnable-track { background : ' + rangeBg + ' } ';
+      cssRule += '#' + obj.id + '::-moz-range-track { background : ' + rangeBg + ' } ';
+      cssRule += '#' + obj.id + '::-ms-track { background : ' + rangeBg + ' } ';
+      var applyStyle = function (styleName, cssText) {
+        var styleElement = dom.getElementById(styleName);
+        if (styleElement) dom.getElementsByTagName('head')[0].removeChild(styleElement);
+
+        styleElement = dom.createElement('style');
+        styleElement.type = 'text/css';
+        styleElement.id = styleName;
+        styleElement.innerHTML = cssText;
+        dom.getElementsByTagName('head')[0].appendChild(styleElement);
+      }
+      applyStyle('range_' + obj.id, cssRule);
+    }
+
+    // Refresh on resize
+    var fireOnceOnResize;
+    win.addEventListener('resize', function () {
+      fireOnceOnResize = setTimeout(update, 100);
+    });
+
+    // Init Component
+    init();
+
+  }(window, document));
+
+
+  // Update turnaround time/working days
+  function updateTurnaroundTime() {
+
+    is_urgent = $('#urgent').is(':checked');
+
+    if (is_urgent) {
+      $('.turnaround_time').html("1 Business Days");
+    } else {
+      $('.turnaround_time').html("3 Business Days");
+    }
+
+  }
+
+  // Send calculator detail to email
+  function updatePrice() {
+
+    var num_of_pages = parseInt($('#num_pages').val());
+    var initial_cost = 11.96;
+    var is_urgent = 0;
+    var total_cost = initial_cost;
+    let discount = 0;
+
+    is_urgent = $('#urgent').is(':checked');
+    total_cost = num_of_pages * initial_cost;
+
+    if (is_urgent == true) {
+      total_cost = (total_cost * 2);
+    }
+
+    $('#total_cost').text(total_cost.toFixed(2));
+  }
+
+  // Send calculator detail to email
+  function sendMail() {
+
+    $("span.error, .alert").remove();
+    $("span, input").removeClass("is-invalid");
+
+    var num_of_post = parseInt($('#num_post').val());
+    var is_urgent = $('#urgent').is(':checked');
+    var total_cost = $('#total_cost').text();
+
+    var data = {
+      "num_of_posts": num_of_post,
+      "is_urgent": is_urgent,
+      "total_cost": total_cost
+    }
+
+    $.ajax({
+
+      type: "POST",
+      dataType: 'json',
+      url: "../php/mail.php",
+      data: data,
+
+      success: function (response) {
+        if (response.status == true) {
+          $('#custom-plan-box').after('<div class="alert alert-success">We received your message, our team will contact you soon.</div>')
+        } else {
+          $('#custom-plan-box').after('<div class="alert alert-danger">Something went wrong, please contact to support</div>')
+        }
+      },
+
+      error: function () {
+        $('#custom-plan-box').after('<div class="alert alert-danger">Something went wrong, please contact to support</div>')
+      }
+
+    });
+
+
+
+  }
+
+  // submit contact form F
+  $(document).on('click', '#submitForm', function (e) {
+
+    e.preventDefault();
+
+    $("span.error, .alert").remove();
+    $("span, input").removeClass("is-invalid");
+
+    var name = $(this).closest('form').find('#fullname').val();
+    var contact = $(this).closest('form').find('#contact').val();
+    var company = $(this).closest('form').find('#company').val();
+    var phone = $(this).closest('form').find('#phone').val();
+    var email = $(this).closest('form').find('#email').val();
+    var website = $(this).closest('form').find('#website').val();
+    var budget = $(this).closest('form').find('#budget').val();
+    var details = $(this).closest('form').find('#details').val();
+    var flag = true;
+
+
+    if (name == null || name == '') {
+      $(this).closest('form').find('#fullname').addClass('is-invalid');
+      flag = false;
+    }
+
+    if (phone == null || phone == '') {
+      $(this).closest('form').find('#phone').addClass('is-invalid');
+      flag = false;
+    }
+
+    if (email == null || email == '') {
+      $(this).closest('form').find('#email').addClass('is-invalid');
+      flag = false;
+    }
+
+    if (flag) {
+
+      var form_btn = $(this);    
+      var data = {
+        "name": name,
+        "company": company,
+        "phone": phone,
+        "email": email,
+        "website": website,
+        "budget": budget,
+        "details": details
+      }
+
+      $.ajax({
+
+        type: "POST",
+        dataType: 'json',
+        url: "../php/contact.php",
+        data: data,
+
+        success: function (response) {
+          if (response.status == true) {
+              
+            $('input[name="fullname"]').val('');
+            $('input[name="phone"]').val('');
+            $('input[name="email"]').val('');
+            $('input[name="company"]').val('');
+            $('input[name="website"]').val('');
+            $('input[name="budget"]').val('');
+            $('textarea[name="details"]').val('');
+              
+            // form_btn.closest('.form-wrapper').after('<div class="alert alert-success">We received your message, our team will contact you soon.</div>')
+          } else {
+            // form_btn.closest('.form-wrapper').after('<div class="alert alert-danger">Something went wrong, please contact to support</div>')
+          }
+        },
+
+        error: function () {
+          form_btn.closest('.form-wrapper').after('<div class="alert alert-danger">Something went wrong, please contact to support</div>')
+        }
+
+      });
+      
+    form_btn.closest('.form-wrapper').after('<div class="alert alert-success">We received your message, our team will contact you soon.</div>')
+    setTimeout(function() { $(".form_overlay_wrapper").removeClass("form_overlay_active"); }, 2000);
+
+
+    }
+
+  });
+
+  // form-overlay
+  $(function () {
+    $(".clickable").click(function () {
+      $(".form_overlay_wrapper").addClass("form_overlay_active");
+    });
+
+    $(".form_overlay_wrapper .closer_btn").click(function () {
+      $(".form_overlay_wrapper").removeClass("form_overlay_active");
+    });
+  });
+  
+  
+// Hamburger
+$(function() {                       
+  $(".sidebar_Btn").click(function() {  
+    $(".sidebar").addClass("sidebar_active");      
+  });
+  $(".closer_btn").click(function() {  
+    $(".sidebar").removeClass("sidebar_active");      
+  });
+  $(".sidebar_Btn").click(function() {  
+    $(".body_overlay").addClass("overlay_active");      
+  });
+  $(".closer_btn").click(function() {  
+    $(".body_overlay").removeClass("overlay_active");      
+    
+  });
+  
+});
+
+
+  // Hamburger
+  $(function() {                       
+    $(".clickable").click(function() {  
+      $(".form_overlay_wrapper").addClass("form_overlay_active");      
+    });
+
+    $(".form_overlay_wrapper .closer_btn").click(function() {  
+      $(".form_overlay_wrapper").removeClass("form_overlay_active");      
+    });
+  });
+  
+  // testimonial
+
+    // vars
+    'use strict'
+    var	testim = document.getElementsByClassName("testim"),
+    		testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
+        testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
+        testimLeftArrow = document.getElementById("left-arrow"),
+        testimRightArrow = document.getElementById("right-arrow"),
+        testimSpeed = 4500,
+        currentSlide = 0,
+        currentActive = 0,
+        testimTimer,
+    		touchStartPos,
+    		touchEndPos,
+    		touchPosDiff,
+    		ignoreTouch = 30;
+    ;
+
+    window.onload = function() {
+    
+        // Testim Script
+        function playSlide(slide) {
+            for (var k = 0; k < testimDots.length; k++) {
+                testimContent[k].classList.remove("active");
+                testimContent[k].classList.remove("inactive");
+                testimDots[k].classList.remove("active");
+            }
+    
+            if (slide < 0) {
+                slide = currentSlide = testimContent.length-1;
+            }
+    
+            if (slide > testimContent.length - 1) {
+                slide = currentSlide = 0;
+            }
+    
+            if (currentActive != currentSlide) {
+                testimContent[currentActive].classList.add("inactive");            
+            }
+            testimContent[slide].classList.add("active");
+            testimDots[slide].classList.add("active");
+    
+            currentActive = currentSlide;
+        
+            clearTimeout(testimTimer);
+            testimTimer = setTimeout(function() {
+                playSlide(currentSlide += 1);
+            }, testimSpeed)
+        }
+    
+        testimLeftArrow.addEventListener("click", function() {
+            playSlide(currentSlide -= 1);
+        })
+    
+        testimRightArrow.addEventListener("click", function() {
+            playSlide(currentSlide += 1);
+        })    
+    
+        for (var l = 0; l < testimDots.length; l++) {
+            testimDots[l].addEventListener("click", function() {
+                playSlide(currentSlide = testimDots.indexOf(this));
+            })
+        }
+    
+        playSlide(currentSlide);
+    
+        // keyboard shortcuts
+        document.addEventListener("keyup", function(e) {
+            switch (e.keyCode) {
+                case 37:
+                    testimLeftArrow.click();
+                    break;
+                    
+                case 39:
+                    testimRightArrow.click();
+                    break;
+    
+                case 39:
+                    testimRightArrow.click();
+                    break;
+    
+                default:
+                    break;
+            }
+        })
+    		
+    	testim.addEventListener("touchstart", function(e) {
+    			touchStartPos = e.changedTouches[0].clientX;
+    	})
+    
+    	testim.addEventListener("touchend", function(e) {
+    		touchEndPos = e.changedTouches[0].clientX;
+    	
+    		touchPosDiff = touchStartPos - touchEndPos;
+    	
+    		console.log(touchPosDiff);
+    		console.log(touchStartPos);	
+    		console.log(touchEndPos);	
+    
+    	
+    		if (touchPosDiff > 0 + ignoreTouch) {
+    				testimLeftArrow.click();
+    		} else if (touchPosDiff < 0 - ignoreTouch) {
+    				testimRightArrow.click();
+    		} else {
+    			return;
+    		}
+    		
+    	})
+    } 
+
+
+</script>
+</body>
+
+<!-- Start of LiveChat (www.livechat.com) code -->
+<script>
+  window._lc = window._lc || {};
+  window.__lc.license = 15017235;
+  ;(function(n,t,c){function i(n){return e.h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n._lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+</script>
+<noscript><a href="https://www.livechat.com/chat-with/15017235/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+<!-- End of LiveChat code -->
+</html>

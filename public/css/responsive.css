@@ -1,0 +1,542 @@
+/* Sidebar */
+
+.sidebar
+{
+    padding: 20px; 
+    box-sizing: border-box;
+    position: fixed;
+    right: 0;
+    z-index: 999;
+    background-color: #23262d;
+    width: 250px;
+    height: 100%;
+    min-height: 100%;
+    transform: translateX(260px);
+    transition: 0.3s ease;
+}
+
+.custom_nav .hamburber
+{
+    display: none;
+}
+.overlay_active
+{
+    opacity: 1!important;
+    transition: 0.3s ease;
+    display: block;
+
+}
+.sidebar_active
+{
+    transform: translateX(0);
+    transition: 0.3s ease;
+}
+.sidebar .closer_btn
+{
+    width: 100%;
+    padding: 10px;
+    border-radius: 0px;
+    width: 35px;
+    height: 35px;
+    background-color: var(--theme-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sidebar ul a
+{
+   color: #fff!important;
+   font-weight: bolder;
+}
+
+
+.sidebar .closer_btn 
+{
+   color: #fff!important;
+   font-size: 25px;
+}
+.sidebar .menu ul
+{
+    padding-left: 0!important;
+}
+.sidebar .menu ul li
+{
+    padding: 15.2px 25px 15.2px 0;
+    list-style: none;
+    border-bottom: 1px solid #3e4047;
+}
+
+
+.body_overlay
+{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background-color: rgb(54 69 79 / 64%);
+    position: fixed;
+    top: 0;
+    z-index: 888;
+    pointer-events: none;
+    user-select: none;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+/* Sidebar */
+
+/* Sticky form */
+
+@media screen and (max-width: 768px)
+{
+    .form_overlay .section-10
+    {
+        width: 100%;
+    }
+    .card{
+        width: 300px;
+    }
+    .main_home{
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 425px)
+{
+    .form_overlay
+    {
+        /*display: none;*/
+        overflow-y: scroll;
+    }
+    .sticky_form_wrapper
+    {
+        display: none;
+    }
+}
+
+/* Sticky form */
+
+
+
+
+/* copywriting */
+@media screen and (max-width: 1024px) {
+    .hero_wrapper .hero_title h1
+    {
+        font-size: 30px;
+    }
+    .hero_wrapper ul#awards_block li img
+    {
+        height: 80px;
+    }
+    .hero_wrapper .hero_text span
+    {
+        font-size: 15px;
+    }
+    .hero_wrapper .price_wrapper span
+    {
+        font-size: 13px;
+    }
+    .hero_wrapper .button_wrapper
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero_wrapper .contact_wrapper
+    {
+        margin-left: 0;
+    }
+    .hero_wrapper .contact_wrapper span
+    {
+        font-size: 20px;
+    }
+    .hero_wrapper .button_wrapper .button
+    {
+        margin-bottom: 15px;
+        padding: 10px 23px;
+    }
+
+    .section-7 #custom-plan-box
+    {
+        padding: 0;
+        padding-bottom: 60px;
+    }
+
+  }
+
+  @media screen and (max-width: 991px)
+  {
+    .hero_wrapper
+    {
+        margin-bottom: 50px;
+    }
+    .custom_nav .nav-l .nav-link
+    {
+        display: none;
+    }
+    .custom_nav .widgets
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 60px;
+    }
+    .widgets .wi-icons
+    {
+        padding-right: 15px;
+    }
+
+    .scroll {
+        padding: 0;
+    }
+    .custom_nav .hamburber
+    {
+        display: block;
+    }
+    .custom_nav .hamburber svg
+    {
+        fill: #000;
+    }
+    .scroll .hamburber svg
+    {
+        fill: #fff;
+    }
+  }
+
+  @media screen and (max-width: 768px)
+  {
+    .section-4 .step_wrapper
+    {
+        height: 600px;
+    }
+    .section-5 .carousel-indicators [data-bs-target] {
+        box-sizing: content-box;
+        width: 30px;
+    }
+    .section-2 ul.cards .wrapper {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-11 .footer_awards ul li {
+        float: left;
+        margin: 3px;
+    }
+    .hero_wrapper .price_wrapper span
+    {
+        font-size: 19px;
+    }
+    .section-4 .step_wrapper .content__box .title
+    {
+        background: none;
+        padding-right: 0;
+    }
+    .section-4 .step_wrapper .content__box .text
+    {
+        text-align: center;
+    }
+    .custom_nav .widgets
+    {
+        padding-right: 10px;
+    }
+    .custom_nav .navbar-brand
+    {
+        padding-left: 10px;
+    }
+  }
+
+
+
+  @media screen and (max-width: 425px)
+  {
+    .custom_nav {
+      
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+    section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .hero_wrapper .price_wrapper 
+    {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .hero_wrapper .price_wrapper .price
+    {
+        background: none;
+        padding-left: 0;
+    }
+
+    .banner {
+        background-color: var(--navbar);
+        background-size: cover;
+        padding: 75px 0px 75px 0px;
+    }
+
+   
+    .section-5 .slide_wrapper img {
+        height: 350px;
+        width: 100%;
+    }
+
+    .section-7 #custom-plan-box .order_box {
+        flex-direction: column;
+    }
+
+    .section-7 #custom-plan-box .order_box .order_btn .button
+    {
+        margin-top: 20px;
+    }
+    .section-7 #custom-plan-box .sec_group .sec_left, 
+    .section-7 #custom-plan-box .sec_group .sec_right
+    {
+        width: 100%;
+    }
+
+    .section-7 #custom-plan-box .sec_group .sec_left .form-switch,
+    .section-7 #custom-plan-box .sec_group .sec_right .form-switch
+     {
+        padding-left: 10px;
+    }
+    .section-9 .logo_box ul li
+    {
+        float: none;
+    }
+    .section-9 .logo_box ul
+    {
+        padding: 0;
+    }
+    .request-quote input, .request-quote textarea
+    {
+        width: 100%!important;
+    }
+    .section-10 .form-wrapper .form-submit-btn
+    {
+        text-align: center;
+       
+    }
+    .request-quote .form-submit-btn .btn
+    {
+        margin-top: 40px!important;
+        float: none!important;
+    }
+    
+    .section-11 .footer_awards ul {
+        display: block;
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .testim .wrap {
+        position: relative;
+        width: 100%;
+        max-width: 1020px;
+        padding: 40px 0;
+        margin: auto;
+    }
+
+    .section-8 .testim .cont div p {
+        font-size: 1em;
+        color: #fff;
+        width: 100%;
+    }
+
+    .section-8 .testim .dots {
+        padding-left: 0;
+    }
+   
+  }
+
+  @media screen and (max-width: 375px)
+  {
+      .hero_wrapper ul#awards_block li img
+      {
+          height: 50px;
+      }
+  }
+/* copywriting */
+
+/* Blog */
+
+@media screen and (max-width: 1024px)
+{
+    .blogs_types_list .blog_type
+    {
+        padding-left: 60px;
+    }
+    .packages_info .tab-menu ul li {
+        list-style-type: none;
+        display: block;
+        margin-bottom: 40px;
+    }
+}
+
+
+@media screen and (max-width: 425px)
+{
+    .blog_banner .right_section,
+    .blog_banner .left_section {
+        width: 100%;
+        height: auto;
+        float: none;
+        text-align: center;
+    }
+    .blog_banner .right_section
+    {
+        margin-top: 30px;
+    }
+    .blog_banner .theme_title:after {
+       margin: 0 auto;
+    }
+    .blogs_types_list .blog_type {
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .packages_info .tab-menu ul li a {
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 375px)
+{
+    .Blog_writing
+    {
+        padding: 10px;
+    }
+    .banner .theme_title span
+    {
+        font-size: 35px;
+    }
+    
+}
+
+@media screen and (max-width: 320px)
+{
+    .section-7 #custom-plan-box .order_box .total_cost {
+        font-size: 35px;
+    }
+    .section-7 #custom-plan-box .order_box .order_btn .button
+    {
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+    }
+}
+
+
+/* Blog */
+
+/* custom bussiness plan */
+@media screen and (max-width: 425px)
+{
+    .custom_cbp_banner {
+    
+    padding: 70px 10px 70px 10px;
+}
+.custom_cbp_banner .livechat p {
+    margin: 0;
+    font-size: 41px;
+    font-weight: 600;
+    line-height: 51px;
+}
+
+.tobp .wizard .nav-tabs .nav-item .nav-link {
+    width: 60px;
+    height: 60px;
+
+
+}
+.tobp .wizard .nav-tabs .nav-item .nav-link img
+{
+    width: 35px;
+    height: 35px;
+}
+
+.tobp .wizard .tab_wrapper {
+    width: 100%;
+    padding: 30px 0 20px 0;
+    text-align: center;
+}
+
+}
+
+@media screen and (max-width: 320px)
+{
+    .custom_cbp_banner .livechat p {
+        font-size: 31px;
+    }
+}
+
+/* custom bussiness plan */
+
+/* Ebook */
+@media screen and (max-width: 768px)
+{
+    .book_box .wrapper {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 420px)
+{
+    .section-2 ul.cards
+    {
+        width: 100%;
+    }
+    .section-2 .cards li {
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+
+    }
+}
+
+
+/* Ebook */
+
+@media screen and (max-width: 768px)  {
+    .custom_nav .navbar-brand img
+    {
+    width: 78px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .section-7 #custom-plan-box .cpb-left {
+        float: left;
+        width: auto;
+        margin: 0px 0px 1px 0px;
+    }
+    
+    .section-7 #custom-plan-box .cpb-right {
+        float: right;
+        width: 60%;
+        margin: 0px 0px 1px 0px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .section-7 #custom-plan-box .order_box .total_cost {
+        font-size: 30px;
+    }
+}
+    
+
+

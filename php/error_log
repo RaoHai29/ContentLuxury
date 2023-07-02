@@ -1,0 +1,165 @@
+[17-Jan-2023 19:33:18 UTC] PHP Notice:  Undefined variable: num_of_posts in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 13
+[17-Jan-2023 19:33:18 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 14
+[17-Jan-2023 19:33:18 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 15
+[17-Jan-2023 19:33:18 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 16
+[17-Jan-2023 19:33:18 UTC] PHP Notice:  Undefined variable: is_urgent in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[17-Jan-2023 19:33:18 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[17-Jan-2023 19:33:18 UTC] PHP Notice:  Undefined variable: total_cost in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 19
+[17-Jan-2023 19:33:26 UTC] PHP Notice:  Undefined variable: num_of_posts in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 13
+[17-Jan-2023 19:33:26 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 14
+[17-Jan-2023 19:33:26 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 15
+[17-Jan-2023 19:33:26 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 16
+[17-Jan-2023 19:33:26 UTC] PHP Notice:  Undefined variable: is_urgent in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[17-Jan-2023 19:33:26 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[17-Jan-2023 19:33:26 UTC] PHP Notice:  Undefined variable: total_cost in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 19
+[17-Jan-2023 19:34:17 UTC] PHP Notice:  Undefined variable: num_of_posts in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 13
+[17-Jan-2023 19:34:17 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 14
+[17-Jan-2023 19:34:17 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 15
+[17-Jan-2023 19:34:17 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 16
+[17-Jan-2023 19:34:17 UTC] PHP Notice:  Undefined variable: is_urgent in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[17-Jan-2023 19:34:17 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[17-Jan-2023 19:34:17 UTC] PHP Notice:  Undefined variable: total_cost in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 19
+[17-Jan-2023 20:27:41 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 30
+[19-Jan-2023 19:01:23 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[19-Jan-2023 19:01:23 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[19-Jan-2023 19:01:23 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 19
+[19-Jan-2023 19:01:23 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 21
+[19-Jan-2023 19:01:23 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 30
+[19-Jan-2023 19:01:26 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[19-Jan-2023 19:01:26 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[19-Jan-2023 19:01:26 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 19
+[19-Jan-2023 19:01:26 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 21
+[19-Jan-2023 19:01:26 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 30
+[19-Jan-2023 19:01:28 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[19-Jan-2023 19:01:28 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[19-Jan-2023 19:01:28 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 19
+[19-Jan-2023 19:01:28 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 21
+[19-Jan-2023 19:01:28 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 30
+[19-Jan-2023 19:01:32 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[19-Jan-2023 19:01:32 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[19-Jan-2023 19:01:32 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 19
+[19-Jan-2023 19:01:32 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 21
+[19-Jan-2023 19:01:32 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 30
+[19-Jan-2023 19:01:32 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[19-Jan-2023 19:01:32 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[19-Jan-2023 19:01:32 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 19
+[19-Jan-2023 19:01:32 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 21
+[19-Jan-2023 19:01:32 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 30
+[19-Jan-2023 19:01:35 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[19-Jan-2023 19:01:35 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[19-Jan-2023 19:01:35 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 19
+[19-Jan-2023 19:01:35 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 21
+[19-Jan-2023 19:01:35 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 30
+[19-Jan-2023 19:01:53 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[19-Jan-2023 19:01:53 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[19-Jan-2023 19:01:53 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 19
+[19-Jan-2023 19:01:53 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 21
+[19-Jan-2023 19:01:53 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 30
+[19-Jan-2023 19:01:57 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[19-Jan-2023 19:01:57 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[19-Jan-2023 19:01:57 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 19
+[19-Jan-2023 19:01:57 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 21
+[19-Jan-2023 19:01:57 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 30
+[19-Jan-2023 19:10:14 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[19-Jan-2023 19:10:14 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[19-Jan-2023 19:10:14 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 19
+[19-Jan-2023 19:10:14 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 21
+[19-Jan-2023 19:10:14 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 30
+[19-Jan-2023 19:10:16 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[19-Jan-2023 19:10:16 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[19-Jan-2023 19:10:16 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 19
+[19-Jan-2023 19:10:16 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 21
+[19-Jan-2023 19:10:16 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 30
+[19-Jan-2023 19:10:17 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[19-Jan-2023 19:10:17 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[19-Jan-2023 19:10:17 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 19
+[19-Jan-2023 19:10:17 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 21
+[19-Jan-2023 19:10:17 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 30
+[20-Jan-2023 21:54:28 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 29
+[20-Jan-2023 21:56:11 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 29
+[20-Jan-2023 21:57:06 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 29
+[20-Jan-2023 21:59:35 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 29
+[20-Jan-2023 22:01:17 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 29
+[20-Jan-2023 22:01:20 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 29
+[20-Jan-2023 22:01:21 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 29
+[20-Jan-2023 22:02:49 UTC] PHP Notice:  Undefined variable: to in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 28
+[20-Jan-2023 22:03:11 UTC] PHP Notice:  Undefined variable: to in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 28
+[20-Jan-2023 22:04:27 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 32
+[20-Jan-2023 22:04:27 UTC] PHP Notice:  Array to string conversion in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 32
+[20-Jan-2023 22:28:39 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 16
+[20-Jan-2023 22:28:39 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[20-Jan-2023 22:28:39 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[20-Jan-2023 22:28:39 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 20
+[20-Jan-2023 22:28:39 UTC] PHP Notice:  Undefined variable: to in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 28
+[20-Jan-2023 22:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 28
+[20-Jan-2023 22:28:39 UTC] PHP Notice:  Undefined variable: mail in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 39
+[30-Jan-2023 11:12:49 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 16
+[30-Jan-2023 11:12:49 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[30-Jan-2023 11:12:49 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[30-Jan-2023 11:12:49 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 20
+[30-Jan-2023 11:12:49 UTC] PHP Notice:  Undefined variable: to in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 28
+[30-Jan-2023 11:12:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 28
+[30-Jan-2023 11:12:49 UTC] PHP Notice:  Undefined variable: mail in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 39
+[30-Jan-2023 11:12:52 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 16
+[30-Jan-2023 11:12:52 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[30-Jan-2023 11:12:52 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[30-Jan-2023 11:12:52 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 20
+[30-Jan-2023 11:12:52 UTC] PHP Notice:  Undefined variable: to in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 28
+[30-Jan-2023 11:12:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 28
+[30-Jan-2023 11:12:52 UTC] PHP Notice:  Undefined variable: mail in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 39
+[30-Jan-2023 11:12:54 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 16
+[30-Jan-2023 11:12:54 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[30-Jan-2023 11:12:54 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[30-Jan-2023 11:12:54 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 20
+[30-Jan-2023 11:12:54 UTC] PHP Notice:  Undefined variable: to in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 28
+[30-Jan-2023 11:12:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 28
+[30-Jan-2023 11:12:54 UTC] PHP Notice:  Undefined variable: mail in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 39
+[30-Jan-2023 11:12:55 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 16
+[30-Jan-2023 11:12:55 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[30-Jan-2023 11:12:55 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[30-Jan-2023 11:12:55 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 20
+[30-Jan-2023 11:12:55 UTC] PHP Notice:  Undefined variable: to in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 28
+[30-Jan-2023 11:12:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 28
+[30-Jan-2023 11:12:55 UTC] PHP Notice:  Undefined variable: mail in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 39
+[31-Jan-2023 07:07:01 UTC] PHP Notice:  Undefined variable: name in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 15
+[31-Jan-2023 07:07:01 UTC] PHP Notice:  Undefined variable: company in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 16
+[31-Jan-2023 07:07:01 UTC] PHP Notice:  Undefined variable: email in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 17
+[31-Jan-2023 07:07:01 UTC] PHP Notice:  Undefined variable: phone in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 18
+[31-Jan-2023 07:07:01 UTC] PHP Notice:  Undefined variable: website in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 19
+[31-Jan-2023 07:07:01 UTC] PHP Notice:  Undefined variable: budget in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 20
+[31-Jan-2023 07:07:01 UTC] PHP Notice:  Undefined variable: details in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 21
+[31-Jan-2023 19:58:45 UTC] PHP Notice:  Undefined variable: name in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 15
+[31-Jan-2023 19:58:45 UTC] PHP Notice:  Undefined variable: company in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 16
+[31-Jan-2023 19:58:45 UTC] PHP Notice:  Undefined variable: email in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 17
+[31-Jan-2023 19:58:45 UTC] PHP Notice:  Undefined variable: phone in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 18
+[31-Jan-2023 19:58:45 UTC] PHP Notice:  Undefined variable: website in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 19
+[31-Jan-2023 19:58:45 UTC] PHP Notice:  Undefined variable: budget in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 20
+[31-Jan-2023 19:58:45 UTC] PHP Notice:  Undefined variable: details in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 21
+[01-Feb-2023 07:57:36 UTC] PHP Notice:  Undefined variable: name in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 15
+[01-Feb-2023 07:57:36 UTC] PHP Notice:  Undefined variable: company in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 16
+[01-Feb-2023 07:57:36 UTC] PHP Notice:  Undefined variable: email in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 17
+[01-Feb-2023 07:57:36 UTC] PHP Notice:  Undefined variable: phone in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 18
+[01-Feb-2023 07:57:36 UTC] PHP Notice:  Undefined variable: website in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 19
+[01-Feb-2023 07:57:36 UTC] PHP Notice:  Undefined variable: budget in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 20
+[01-Feb-2023 07:57:36 UTC] PHP Notice:  Undefined variable: details in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 21
+[01-Feb-2023 16:29:53 UTC] PHP Notice:  Undefined variable: word_count in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 16
+[01-Feb-2023 16:29:53 UTC] PHP Notice:  Undefined variable: quality in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 17
+[01-Feb-2023 16:29:53 UTC] PHP Notice:  Undefined variable: is_publishing in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 18
+[01-Feb-2023 16:29:53 UTC] PHP Notice:  Undefined variable: is_subscribed in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 20
+[01-Feb-2023 16:29:53 UTC] PHP Notice:  Undefined variable: to in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 28
+[01-Feb-2023 16:29:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 28
+[01-Feb-2023 16:29:53 UTC] PHP Notice:  Undefined variable: mail in /home/gghppd5pd5al/public_html/contentluxury.com/php/mail.php on line 39
+[01-Feb-2023 19:56:51 UTC] PHP Notice:  Undefined variable: name in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 15
+[01-Feb-2023 19:56:51 UTC] PHP Notice:  Undefined variable: company in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 16
+[01-Feb-2023 19:56:51 UTC] PHP Notice:  Undefined variable: email in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 17
+[01-Feb-2023 19:56:51 UTC] PHP Notice:  Undefined variable: phone in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 18
+[01-Feb-2023 19:56:51 UTC] PHP Notice:  Undefined variable: website in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 19
+[01-Feb-2023 19:56:51 UTC] PHP Notice:  Undefined variable: budget in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 20
+[01-Feb-2023 19:56:51 UTC] PHP Notice:  Undefined variable: details in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 21
+[02-Feb-2023 07:55:47 UTC] PHP Notice:  Undefined variable: name in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 15
+[02-Feb-2023 07:55:47 UTC] PHP Notice:  Undefined variable: company in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 16
+[02-Feb-2023 07:55:47 UTC] PHP Notice:  Undefined variable: email in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 17
+[02-Feb-2023 07:55:47 UTC] PHP Notice:  Undefined variable: phone in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 18
+[02-Feb-2023 07:55:47 UTC] PHP Notice:  Undefined variable: website in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 19
+[02-Feb-2023 07:55:47 UTC] PHP Notice:  Undefined variable: budget in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 20
+[02-Feb-2023 07:55:47 UTC] PHP Notice:  Undefined variable: details in /home/gghppd5pd5al/public_html/contentluxury.com/php/contact.php on line 21
